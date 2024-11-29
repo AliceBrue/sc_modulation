@@ -1,0 +1,49 @@
+#PYTHON
+*.pyc
+*.pyc~
+
+# Temp Files
+*.*~
+\#.*
+*.bak
+
+# Auto-generated files
+auto*
+
+#: figures
+*.dot
+*.png
+!figures/*.png
+
+
+# System Files
+.DS_Store
+
+#: install files
+farms_network.egg-info
+
+# build
+build/
+*.so
+*.dylib
+
+#: Generated cython c-files
+*.c
+
+#: Generated cython perf html files
+*.html
+
+#: Docs
+docs/build
+make.bat
+
+#: networkx
+*.graphml
+
+#: profiling
+*.prof
+*.lprof
+*.profile
+
+#: Results
+Results

@@ -1,0 +1,20 @@
+image: python:3.7-alpine
+
+pages:
+  script:
+  - apk update
+  - apk add make automake gcc g++ subversion python3-dev
+  - pip install sphinx
+  - pip install sphinx_rtd_theme
+  - pip install cython
+  - pip install numpy
+  - apk --no-cache add make
+  - cd docs
+  - make html
+  - cd ..
+  - mv docs/build/html/ public/
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

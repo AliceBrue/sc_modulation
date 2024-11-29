@@ -1,0 +1,32 @@
+#PYTHON
+*.pyc
+*.pyc~
+
+# Temp Files
+*.*~
+\#.*
+*.orig
+
+# Auto-generated files
+auto*
+*.html
+graph.dot
+graph.png
+jit_tmp.c
+
+# System Files
+.DS_Store
+
+#: install files
+farms_container.egg-info
+*.so
+*.c
+
+#: Build
+build
+
+#: Distribution
+*.egg-info
+
+#: Docs
+docs/_build

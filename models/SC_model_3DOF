@@ -1,0 +1,12 @@
+Muscles type Ia_antagonist Ia_delay Ia_w IaIn_w IaIn_IaIn_w MN_RC_w RC_MN_w RC_IaIn_w RC_RC_w
+DELT1 flex DELT3,PECM3,LAT3,TRIlong 30.0 1.0 0.5 1.0 1.0 1.0 1.0 1.0
+DELT2 ext PECM3,LAT3 30.0 1.0 0.5 1.0 1.0 1.0 1.0 1.0
+DELT3 ext DELT1,BIClong 30.0 1.0 0.5 1.0 1.0 1.0 1.0 1.0
+PECM3 flex DELT1,DELT2 30.0 1.0 0.5 1.0 1.0 1.0 1.0 1.0
+LAT3 flex DELT1,DELT2 30.0 1.0 0.5 1.0 1.0 1.0 1.0 1.0
+TRIlong ext DELT1,BIClong 30.0 1.0 0.5 1.0 1.0 1.0 1.0 1.0
+TRIlat ext BICshort,BRA 30.0 1.0 0.5 1.0 1.0 1.0 1.0 1.0
+TRImed ext BICshort,BRA 30.0 1.0 0.5 1.0 1.0 1.0 1.0 1.0
+BIClong flex DELT3,TRIlong 30.0 1.0 0.5 1.0 1.0 1.0 1.0 1.0
+BICshort flex TRIlat,TRImed 30.0 1.0 0.5 1.0 1.0 1.0 1.0 1.0
+BRA flex TRIlat,TRImed 30.0 1.0 0.5 1.0 1.0 1.0 1.0 1.0
